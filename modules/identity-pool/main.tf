@@ -1,9 +1,10 @@
 /*************************************************************************************************
   Common module that creates a Workload Identity Pool with one Identity Provider per pool for Terraform Cloud integrarion with GCP
     
-  For Workload identity tokens from Terraform Cloud refer to https://developer.hashicorp.com/terraform/cloud-docs/workspaces/dynamic-provider-credentials/workload-identity-tokens 
+  For Workload identity tokens from Terraform Cloud refer to 
+      https://developer.hashicorp.com/terraform/cloud-docs/workspaces/dynamic-provider-credentials/workload-identity-tokens 
   
-/*************************************************************************************************
+*************************************************************************************************/
       
 resource "google_iam_workload_identity_pool" "identity-pool" {
   workload_identity_pool_id = var.identity_pool_id
