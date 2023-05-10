@@ -1,1 +1,1 @@
-# federation-demo
+# workload-identity-federation-demo
