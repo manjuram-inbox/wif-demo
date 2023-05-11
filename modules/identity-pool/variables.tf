@@ -3,12 +3,12 @@ variable "identity_pool_id" {
   type        = string
 }
 
-variable "identity_p0ol_name" {
+variable "identity_pool_name" {
   description = ""
   type        = string
 }
 
-variable "identity_p0ol_desc" {
+variable "identity_pool_desc" {
   description = ""
   type        = string
 }
